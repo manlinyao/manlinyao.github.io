@@ -3,24 +3,28 @@
    <head>
    <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Portfolio | Manlin Yao</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/normalize.css">
    </head>
    <body>
       <main class="container">
          <header class="nav-bar">
-            <div class="logo"></div>
+            <div class="logo">
+              <img src="images/logo.png" alt="logo">
+            </div>
             <!--Navigation-->
             <nav class="desktop-menu">
-               <ul>
-                  <li> <a>Work</a></li>
-                  <li> <a>Art</a></li>
-                  <li> <a>About</a></li>
-                  <li> <a>Contact</a></li>
+               <ul class="nav">
+                  <li> <a><h3>Contact</h3></a></li>
+                  <li> <a><h3>About</h3></a></li>
+                  <li> <a><h3>Art</h3></a></li>
+                  <li> <a><h3>Work</h3></a></li>
                </ul>
             </nav>
          </header>
          <!--Hero-->
          <section class="hero">
-            <h1 class="hero-intro">"Hi! I’m Manlin, an Austin-based product designer. I create things that make life easier for people."
+            <h1 class="hero-intro">Hi! I’m Manlin, an Austin-based product designer. I create things that make life easier for people.
             </h1>
          </section>
          <!--section-->
@@ -30,26 +34,38 @@
          <!--case studies-->
          <section class="projects">
             <div class="project">
-               <img src="images/cloudthink.jpg" alt="cloudth!nk">
+               <img src="images/cloudthink.png" alt="cloudth!nk" class="image">
+               <div class="overlay">
+                 <div class="text">cloudth!nk</div>
+               </div>
             </div>
             <div class="project">
-               <img src="images/violet_bag.jpg" alt="violet bag">
+               <img src="images/violet_bag.jpg" alt="violet bag" class="image">
+               <div class="overlay">
+                 <div class="text">Encampment Violet Bag Pilot</div>
+               </div>
             </div>
             <div class="project">
-               <img src="images/service_access.jpg" alt="service acces">
+               <img src="images/service_access.jpg" alt="service access" class="image">
+               <div class="overlay">
+                 <div class="text">Service Access</div>
+               </div>
             </div>
             <div class="project">
-               <img src="images/mobile_food.jpg" alt="mobile food">
+               <img src="images/mobile_food.jpg" alt="mobile food" class="image">
+               <div class="overlay">
+                 <div class="text">alpha.austin.gov</div>
+               </div>
             </div>
          </section>
       </main>
       <nav class="section-label">
-         <h4>Let's connect!</h4>
+         <h4 class="label">Let's connect!</h4>
          <footer>
-            <ul>
-               <li> <a href="mailto:manlinyao18@gmail.com">manlinyao18@gmail.com</a> </li>
-               <li> <a href="https://www.linkedin.com/in/manlinyao1/">LinkedIn</a> </li>
-               <li> <a href="https://github.com/manlinyao">GitHub</a> </li>
+            <ul class="footer-info">
+               <li> <a href="mailto:manlinyao18@gmail.com"><h4>manlinyao18@gmail.com</h4></a> </li>
+               <li> <a href="https://www.linkedin.com/in/manlinyao1/"></h4>LinkedIn</h4></a> </li>
+               <li> <a href="https://github.com/manlinyao"><h4>GitHub</h4></a> </li>
             </ul>
          </footer>
       </nav>
