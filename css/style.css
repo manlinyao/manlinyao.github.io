@@ -73,11 +73,28 @@ h4.label {
   margin: 0;
 }
 
+h5.step {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h6 {
+  color: #979797;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+}
+
 .hero {
   margin-left: 30px;
   padding-top: 66px;
-  padding-bottom: 66px;
-  width: 985px;
+  padding-bottom: 84px;
+  width: 1000px;
 }
 
 .image {
@@ -88,7 +105,16 @@ h4.label {
 
 .nav-bar {
   display: flex;
-  margin-left: 30px;
+  /*margin-left: 30px*/;
+  justify-content: space-between;
+}
+
+p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .text p {
@@ -97,6 +123,22 @@ h4.label {
   font-weight: normal;
   font-size: 25px;
   line-height: 29px;
+}
+
+ol.bullet-pts {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+ul.bullet-pts li {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 
@@ -161,10 +203,14 @@ h4.label {
 
 ul.footer-info {
   list-style-type: none;
-  margin: 0;
+  margin-top: 36px;
   padding: 0;
   font-family: Roboto Black;
   font-size: 18px;
+}
+
+.footer-info h4 {
+  margin: 10px 0;
 }
 
 a:link {
@@ -173,4 +219,32 @@ a:link {
 
 .nav {
   float: right;
+}
+
+.logo {
+  float: left;
+  width: 100px;
+  height: auto;
+}
+
+button {
+  background: #F4653D;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Futura;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  width: 172px;
+  height: 48px;
+}
+
+.project-container {
+  width: 720px;
+  margin: 0 auto;
 }
