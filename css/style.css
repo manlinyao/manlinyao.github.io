@@ -51,7 +51,7 @@ h3 {
 }
 
 .text h3{
-  font-family: Work Sans;
+  font-family: Work Sans, sans-serif;
   font-size: 25px;
   font-weight: normal;
   margin: 0;
@@ -90,7 +90,7 @@ h6 {
 }
 
 p {
-  font-family: Work Sans;
+  font-family: Work Sans, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
@@ -98,7 +98,7 @@ p {
 }
 
 .text p {
-  font-family: Work Sans;
+  font-family: Work Sans, sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: normal;
@@ -106,7 +106,7 @@ p {
 }
 
 ol.bullet-pts {
-  font-family: Work Sans;
+  font-family: Work Sans, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
@@ -114,7 +114,7 @@ ol.bullet-pts {
 }
 
 ul.bullet-pts li {
-  font-family: Work Sans;
+  font-family: Work Sans, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
@@ -147,7 +147,7 @@ ul.bullet-pts li {
 
 .nav-bar {
   display: flex;
-  /*margin-left: 30px*/;
+  /*margin-left: 30px*/
   justify-content: space-between;
   align-items: baseline;
 }
@@ -267,6 +267,10 @@ ul.footer-info {
 
 .footer-info h4 {
   margin: 10px 0;
+}
+
+li.active a {
+  color: #621B3D;
 }
 
 a:link {
