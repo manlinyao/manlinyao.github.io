@@ -5,9 +5,13 @@
       <title>Portfolio | Manlin Yao</title>
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
       <!--Google fonts-->
       <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+
+      <!-- Icon library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    </head>
    <body>
       <main class="container">
@@ -17,15 +21,21 @@
               <img src="images/logo.png" alt="logo" class="image">
               </a>
             </div>
-            <!--Navigation-->
+            <!--top navigation menu-->
             <nav class="desktop-menu">
                <ul class="nav">
-                  <li> <a><h3>Contact</h3></a></li>
-                  <li> <a><h3>About</h3></a></li>
-                  <li> <a><h3>Art</h3></a></li>
-                  <li class="active"> <a href="#work"><h3>Work</h3></a></li>
+                  <li> <a href="#contact">Contact</a></li>
+                  <li> <a href="#about">About</a></li>
+                  <li> <a href="#art">Art</a></li>
+                  <li class="active"> <a href="#work">Work</a></li>
                </ul>
             </nav>
+
+            <!--hamburger menu/bar icon to toggle the nav links-->
+            <a href="javascript:void(0):" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+
          </header>
          <!--Hero-->
          <section class="hero">
@@ -91,5 +101,16 @@
             </ul>
          </footer>
       </nav>
+      <script>
+
+      function myFunction() {
+        var x = document.getElementById(".desktop-menu");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
    </body>
 </html>

@@ -123,7 +123,7 @@ ul.bullet-pts li {
 }
 
 /*structure*/
-.desktop-menu ul {
+/*.desktop-menu ul {
   background-color: #ffffff;
   list-style-type: none;
   margin: 0;
@@ -131,11 +131,39 @@ ul.bullet-pts li {
   padding: 0;
   width: 100%;
 }
-.desktop-menu li {
-  float: right;
+*/
+
+.nav-bar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
 }
 
-.desktop-menu li a {
+.desktop-menu {
+  display: none;
+}
+
+.desktop-menu a {
+  color: #000000;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.desktop-menu a.icon {
+  background: #000000;
+  display: block
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/*.desktop-menu li {
+  float: right;
+}*/
+
+/*.desktop-menu li a {
   color: #000000;
   display: block;
   font-family: Futura;
@@ -144,24 +172,24 @@ ul.bullet-pts li {
   padding-right: 30px;
   text-align: right;
   text-decoration: none;
-}
+}*/
 
-.nav-bar {
+/*.nav-bar {
   display: flex;
-  /*margin-left: 30px*/
+  margin-left: 30px
   justify-content: space-between;
   align-items: baseline;
-}
+}*/
 
-.nav {
+/*.nav {
   float: right;
-}
+}*/
 
 .logo {
   float: left;
-  height: auto;
-  padding-bottom: 200px;
-  width: 96px;
+  /*height: auto;*/
+  /*padding-bottom: 200px;*/
+  /*width: 96px;*/
 }
 
 .hero {
