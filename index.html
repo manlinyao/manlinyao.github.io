@@ -105,10 +105,15 @@
 
       function myFunction() {
         var x = document.querySelector(".desktop-menu");
+        const hamburger = document.querySelector('.nav-bar i')
         if (x.style.display === "block") {
           x.style.display = "none";
+          hamburger.classList.add('fa-bars');
+          hamburger.classList.remove('fa-times');
         } else {
           x.style.display = "block";
+          hamburger.classList.remove('fa-bars');
+          hamburger.classList.add('fa-times');
         }
       }
     </script>

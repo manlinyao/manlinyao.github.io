@@ -56,9 +56,9 @@
             <div class="project-step-content">
                <h5 class="step">Summary</h5>
                <p>More and more, people are storing and sharing information online using cloud storage applications, but these applications can become cluttered as the number of collaborators and items increases. cloudth!nk wants to enter the space as a new product that specifically serves the needs of young students, professionals, and artists who are looking for a platform that inspires creativity, knowledge-sharing, and efficient problem-solving, all while having a bit of fun.</p>
-               <p>My role: branding and visual design, user research, UX/UI</p>
-               <p>Deliverables: style guide, user stories and flows, user personas, content strategy, sitemap, wireframes, clickable prototype</p>
-               <p>Tools: Figma, InVision, Draw.io</p>
+               <p><u>My role:</u> branding and visual design, user research, UX/UI</p>
+               <p><u>Deliverables:</u> style guide, user stories and flows, user personas, content strategy, sitemap, wireframes, clickable prototype</p>
+               <p><u>Tools:</u> Figma, InVision, Draw.io</p>
             </div>
             <div class="project-step-content">
                <h5 class="step">Challenge</h5>
@@ -204,10 +204,15 @@
 
       function myFunction() {
         var x = document.querySelector(".desktop-menu");
+        const hamburger = document.querySelector('.nav-bar i')
         if (x.style.display === "block") {
           x.style.display = "none";
+          hamburger.classList.add('fa-bars');
+          hamburger.classList.remove('fa-times');
         } else {
           x.style.display = "block";
+          hamburger.classList.remove('fa-bars');
+          hamburger.classList.add('fa-times');
         }
       }
     </script>

@@ -141,7 +141,10 @@ ul.bullet-pts li {
 }
 
 .desktop-menu {
-  display: none;
+  display: block;
+  background: white;
+  z-index: 1;
+  position: relative;
 }
 
 .desktop-menu a {
@@ -183,9 +186,10 @@ ul.bullet-pts li {
   align-items: baseline;
 }*/
 
-/*.nav {
-  float: right;
-}*/
+.nav {
+  margin: 0;
+  list-style-type: none;
+}
 
 .logo-image {
   /*height: auto;*/
