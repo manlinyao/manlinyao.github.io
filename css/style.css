@@ -136,6 +136,7 @@ ul.bullet-pts li {
 .nav-bar {
   overflow: hidden;
   background-color: #ffffff;
+  margin: 4% 0% 0 0%;
   position: relative;
 }
 
@@ -153,10 +154,11 @@ ul.bullet-pts li {
 
 .desktop-menu a.icon {
   background: #000000;
-  display: block
+  display: block;
   position: absolute;
   right: 0;
   top: 0;
+  width: 36px;
 }
 
 /*.desktop-menu li {
@@ -185,31 +187,38 @@ ul.bullet-pts li {
   float: right;
 }*/
 
-.logo {
-  float: left;
+.logo-image {
   /*height: auto;*/
   /*padding-bottom: 200px;*/
   /*width: 96px;*/
+  display: block;
+  /*margin-top: 15px;
+  margin-bottom: 15px;*/
+  height: auto;
+  /*width: calc(100% - 30px * 2);*/
+  width: 36px;
+  float: left;
 }
 
 .hero {
   /*margin-left: 30px*/;
   padding-top: 84px;
   padding-bottom: 84px;
-  width: 80%;
+  width: 100%;
 }
 
 .hero-title {
   text-align: center;
+  margin: 0 4% 0;
   padding-top: 84px;
   padding-bottom: 84px;
 }
 
-.image {
+/*.image {
   display: block;
   height: auto;
   width: 100%;
-}
+}*/
 
 .hero-img {
   width: 100%;
@@ -250,6 +259,7 @@ ul.bullet-pts li {
 
 .image {
   display: block;
+  width: 100%;
   /*margin-top: 15px;
   margin-bottom: 15px;*/
   height: auto;
@@ -290,6 +300,7 @@ ul.bullet-pts li {
 .section-label {
   /*margin-left: 30px*/;
   margin-bottom: 5px;
+  margin-right: 24px;
 }
 
 ul.footer-info {
@@ -334,8 +345,8 @@ button {
 }
 
 .project-container {
-  margin: 0 auto;
-  width: 100%;
+  margin: 4%;
+  /*width: 100%;*/
   /*width: 720px*/;
   padding-bottom: 150px;
 }
@@ -374,5 +385,10 @@ button {
 }
 
 .container {
-  margin: 1%;
+  margin: 4%
+}
+
+
+.footer-label {
+  margin-left: 24px;
 }
