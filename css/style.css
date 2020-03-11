@@ -2,10 +2,11 @@
 h1 {
   color: #000000;
   font-family: Futura;
-  font-size: 55px;
+  /*font-size: 55px*/;
+  font-size: 2.4rem;
   font-style: normal;
   font-weight: bold;
-  line-height: 73px;
+  /*line-height: 73px*/;
 }
 
 .hero-title h1 {
@@ -163,10 +164,10 @@ ul.bullet-pts li {
 }
 
 .hero {
-  margin-left: 30px;
+  /*margin-left: 30px*/;
   padding-top: 84px;
   padding-bottom: 84px;
-  width: 1000px;
+  width: 80%;
 }
 
 .hero-title {
@@ -182,9 +183,9 @@ ul.bullet-pts li {
 }
 
 .hero-img {
-  width: 1200px;
+  width: 100%;
   height: auto;
-  margin-left: 30px;
+  /*margin-left: 30px*/;
 }
 
 .project-img {
@@ -199,19 +200,21 @@ ul.bullet-pts li {
 }
 
 .projects {
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
+  /*display: flex*/;
+  /*flex-wrap: wrap*/;
   padding-bottom: 150px;
 }
 
 .projects .project {
-  width: 50%;
+  width: 100%;
 }
 
 
 .project{
+  display: inline-block;
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .image {
@@ -253,7 +256,7 @@ ul.bullet-pts li {
 }
 
 .section-label {
-  margin-left: 30px;
+  /*margin-left: 30px*/;
   margin-bottom: 5px;
 }
 
@@ -300,14 +303,17 @@ button {
 
 .project-container {
   margin: 0 auto;
-  width: 720px;
+  width: 100%;
+  /*width: 720px*/;
   padding-bottom: 150px;
 }
 
 .company-logo-imgs {
   width: 100%;
   align-items: middle;
-  padding: 24px;
+  /*padding: 24px*/;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .user-persona-imgs {
@@ -319,10 +325,13 @@ button {
 }
 
 .wireframe-imgs {
-  width: 125%;
+  /*width: 125%*/;
+  width: 100%;
   padding-top: 24px;
   text-align: center;
-  margin-left: -12.5%;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-left: -12.5%*/;
 }
 
 .quote {
@@ -330,4 +339,8 @@ button {
   margin-top: 30px;
   margin-bottom: 30px;
   color: #5226ed;
+}
+
+.container {
+  margin: 1%;
 }
