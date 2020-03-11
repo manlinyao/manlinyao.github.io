@@ -141,7 +141,7 @@ ul.bullet-pts li {
 }
 
 .desktop-menu {
-  display: block;
+  display: none;
   background: white;
   z-index: 1;
   position: relative;
