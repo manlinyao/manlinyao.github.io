@@ -219,9 +219,10 @@ ul.bullet-pts li {
 
 .image {
   display: block;
-  padding: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   height: auto;
-  width: calc(100% - (30px * 2));
+  /*width: calc(100% - (30px * 2));*/
 }
 
 .overlay {
