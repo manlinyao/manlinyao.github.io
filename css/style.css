@@ -25,12 +25,14 @@ h2 {
 .text h2{
   color: #000000;
   font-family: Futura;
-  font-size: 32px;
+  font-size: 18px;
   font-style: normal;
   font-weight: bold;
-  line-height: 43px;
+  /*line-height: 43px;*/
   /*margin-top: 25px;*/
-  margin-bottom: 18px;
+  /*margin-bottom: 18px;*/
+  margin: 0;
+  padding-top: 15px;
 }
 
 .hero-title h2{
@@ -53,7 +55,7 @@ h3 {
 
 .text h3{
   font-family: Work Sans, sans-serif;
-  font-size: 25px;
+  font-size: 16px;
   font-weight: normal;
   margin: 0;
 }
@@ -123,6 +125,7 @@ ul.bullet-pts li {
 }
 
 /*structure*/
+
 /*.desktop-menu ul {
   background-color: #ffffff;
   list-style-type: none;
@@ -278,9 +281,10 @@ ul.bullet-pts li {
   right: 30px;*/
   /*height: 100%*/;
   width: 100%;
+  /*width: calc(100% - 15px * 2);*/
   opacity: 0;
   transition: .5s ease;
-/*background-color: #008CBA*/;
+  /*background-color: #008CBA*/;
 }
 
 .project:hover .overlay {
@@ -298,7 +302,7 @@ ul.bullet-pts li {
   -ms-transform: translate(-50%, -50%);
   text-align: left;
   width: 99%;
-  height: 20%;
+  height: 10%;
 }
 
 .section-label {
@@ -389,10 +393,108 @@ button {
 }
 
 .container {
-  margin: 4%
+  margin: 2%
+}
+
+.footer-label {
+  margin-left: 2%;
 }
 
 
-.footer-label {
-  margin-left: 24px;
+
+
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 55px;
+  }
+  .project-container {
+    margin:auto;
+    width: 720px;
+  }
+  .hero {
+    display: flex;
+    width: 1000px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .projects {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .project {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 15px;
+  }
+
+  .project img {
+    vertical-align: middle;
+    width: 100%;
+  }
+  .overlay {
+    width: calc(100% - 15px * 2);
+  }
+
+  .text h2{
+    color: #000000;
+    font-family: Futura;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 43px;
+    margin-top: 25px;
+    margin-bottom: 18px;
+  }
+
+  .text h3{
+    font-family: Work Sans, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: inline-block;
+    flex-direction: row;
+  }
+
+  .desktop-menu ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desktop-menu li {
+    float: right;
+  }
+
+  .desktop-menu li a {
+    color: #000000;
+    display: block;
+    font-family: Futura;
+    margin: 0;
+    padding-left: 60px;
+    padding-right: 30px;
+    text-align: right;
+    text-decoration: none;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0;
+  }
+
+
 }
