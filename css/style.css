@@ -162,7 +162,6 @@ ul.bullet-pts li {
 .desktop-menu a.icon {
   background: #000000;
   display: block;
-  position: absolute;
   right: 0;
   top: 0;
   width: 36px;
