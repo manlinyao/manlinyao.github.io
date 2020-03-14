@@ -547,11 +547,11 @@ button {
     width: 1100px;
   }
 
-  a:active {
+  a.active:active {
     text-decoration: underline;
   }
 
-  a:hover {
+  a.active:hover {
     text-decoration: underline;
   }
 
