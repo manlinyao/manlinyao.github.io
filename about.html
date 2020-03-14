@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>About</title>
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+     <!--Google fonts-->
+     <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+
+     <!-- Icon library -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+     <main class="container">
+      <header class="nav-bar">
+         <div class="logo">
+           <a href="index.html">
+           <img src="images/logo.png" alt="logo" class="logo-image">
+           </a>
+         </div>
+
+         <!--hamburger menu/bar icon to toggle the nav links-->
+         <a href="javascript:void(0):" class="icon" onclick="myFunction()" style="float:right; color:#000000; position: relative;
+         z-index: 2;">
+           <i class="fa-2x fa fa-bars"></i>
+         </a>
+
+         <!--top navigation menu-->
+         <nav class="desktop-menu">
+            <ul class="nav">
+               <li> <a href="index.html#work"><h3>Work</h3></a></li>
+               <li> <a href="#art"><h3>Art</h3></a></li>
+               <li> <a href="about.html" class="active"><h3>About</h3></a></li>
+               <li> <a href="#contact"><h3>Contact</h3></a></li>
+            </ul>
+         </nav>
+
+      </header>
+
+
+
+         <!--hero unit-->
+         <section class="project-hero">
+            <div class="bio-title">
+               <h2>My name is Manlin, and I’m looking to explore the world and do some good.</h2>
+            </div>
+
+            <!--hero-image-->
+            <div class="hero-image">
+               <img src="/images/about-me.png" alt="about me" class="hero-img">
+            </div>
+         </section>
+         <!--project case study-->
+         <section class="about-container">
+            <h5 class="about-step">About me: design x human rights</h5>
+            <div class="about-content">
+              <p style="margin:0;">I took this picture of crystal clear water while canoeing in a cove on a Greek island. The water was cool and calm, and sunlight shone in through a gaping crack in the cavern ceiling. I felt like I had just taken a morning dip in the freezing Mediterranean, cold but very much alive. I marveled at the overall beauty of the jewel-toned shades of blue and green. I thought, this water is me - my approach to life, relationships, art, and design. To me, all of these things are one and the same. They all capture my world, just from different angles, like the way water reflects a spectrum of breathtaking colors depending on how the light hits it. Still the same body of water.</p>
+
+              <p>That summer, I was working at the U.S. Embassy in Athens, Greece as a U.S. Foreign Service Intern in the Political Office. I worked on a range of projects such as current affairs, human rights, and women’s rights, and made friends from all around the world. During the previous summer, I was at the U.S. Department of State in the Bureau of Democracy, Human Rights, and Labor, where I contributed to the Southeast Asia portfolio, focusing specifically on human rights in Burma, Indonesia, and the Philippines.</p>
+
+              <p>Through opportunities such as the U.S. Department of State’s prestigious U.S. Foreign Service Internship Program as well as the Design for America (DFA) program, a network of design studios at universities around the country committed to social impact through innovation and empathy-building, I witnessed the vast potential that the intersection of design, diplomacy, and public service possesses to establish a more just and equitable world. Through responsible development work and global dialogue, I believe it’s possible to expand human freedoms and remove social, economic, and political deprivations. Most importantly, collaborating with numerous passionate individuals of all ages and backgrounds towards a common goal redefined and broadened my imagination and the scope of possibilities for myself and others.</p>
+
+              <img src="images/prof_pic.jpg" alt="picture of me" class="project-img">
+
+              <p>As you can see, I certainly entered the design world in a pretty non-traditional way. Although I’ve always been passionate about the arts, I initially wanted to be a doctor. Then, my dream was to become a diplomat, a future US ambassador, and eventually the Secretary-General of the United Nations. After these experiences, it just hit me one day. I want to become the world’s first (?) diplomat designer. From conversations with refugees in Greece to meetings with North Korean defectors, congressional hearings on human rights issues in Southeast Asia, to interviewing people experiencing homeless at highway underpasses, I’ve heard it all, and over the years, I’ve come to realize that most people, regardless of socioeconomic status, cultural background, or education, are just trying to make it work. We’re all just trying to get through life, to be happy. That’s why as a researcher and designer, I take every individual’s story or struggle to be fact. I don’t question; I just listen. Therefore, my only goal is to make every day, every experience better, and hopefully, more joyful for others.</p>
+
+              <p>Recently, I attended the UNLEASH Global Innovation Lab in Shenzhen, China as a Global Talent, where I had the privilege to develop solutions targeting United Nations Sustainable Development Goal 11: Sustainable Cities and Communities. My team created a solution centered on social inclusion, technological intervention programs, and decolonizing design and development. For now, I’m a user researcher at the City of Austin’s Office of Design and Delivery, where I get to work on social impact projects, advance equity, and collaborate with awesome, creative people. Although all of our projects hope to improve the lives of Austin residents, I’m most proud of being on the team that helped to prototype and start a new City service for people experiencing homelessness. I’m part of a great team that’s doing work worth doing.</p>
+
+              <p style="font-weight:bold;""><span style="color:#256B56">Feel free to dive into my portfolio!</span></p>
+         </section>
+      </main>
+      <nav class="footer-label">
+         <h4 class="label"><u>Let's connect!</u></h4>
+         <footer>
+           <ul class="footer-info">
+              <li> <a href="mailto:manlinyao18@gmail.com"><h4>manlinyao18@gmail.com</h4></a> </li>
+              <li> <a href="https://www.linkedin.com/in/manlinyao1/"><h4>LinkedIn</h4></a> </li>
+              <li> <a href="https://github.com/manlinyao"><h4>GitHub</h4></a> </li>
+           </ul>
+         </footer>
+      </nav>
+      <script>
+
+      function myFunction() {
+        var x = document.querySelector(".desktop-menu");
+        const hamburger = document.querySelector('.nav-bar i')
+        if (x.style.display === "block") {
+          x.style.display = "none";
+          hamburger.classList.add('fa-bars');
+          hamburger.classList.remove('fa-times');
+        } else {
+          x.style.display = "block";
+          hamburger.classList.remove('fa-bars');
+          hamburger.classList.add('fa-times');
+        }
+      }
+    </script>
+    </main>
+   </body>
+</html>
