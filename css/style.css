@@ -548,11 +548,11 @@ button {
   }
 
   a.active:active {
-    text-decoration: underline;
+    text-decoration:line-through;
   }
 
   a.active:hover {
-    text-decoration: underline;
+    text-decoration: line-through;
   }
 
 }
