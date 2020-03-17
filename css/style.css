@@ -548,11 +548,15 @@ button {
   }
 
   a.active:active {
-    text-decoration:line-through;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #F1B2A1;
   }
 
   a.active:hover {
-    text-decoration: line-through;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #F1B2A1;
   }
 
 }
