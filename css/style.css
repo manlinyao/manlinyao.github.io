@@ -507,7 +507,7 @@ button {
     font-family: Futura;
     margin: 0;
     padding-left: 60px;
-    padding-right: 30px;
+    /*padding-right: 30px;*/
     text-align: right;
     text-decoration: none;
   }
