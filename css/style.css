@@ -50,7 +50,6 @@ h3 {
   font-size: 25px;
   font-style: normal;
   font-weight: bold;
-  /*line-height: 33px;*/
   margin: 0;
 }
 
@@ -548,15 +547,11 @@ button {
   }
 
   a.active:active {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: #F1B2A1;
+    text-decoration: underline #F1B2A1;
   }
 
   a.active:hover {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: #F1B2A1;
+    text-decoration: underline #F1B2A1;
   }
 
 }
