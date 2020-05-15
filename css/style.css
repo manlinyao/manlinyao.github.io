@@ -365,6 +365,10 @@ button {
   margin-bottom: 39px;
 }
 
+button.bookd {
+  background: #6C63FF;
+}
+
 .project-container {
   margin: 4%;
   /*width: 100%;*/
