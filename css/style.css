@@ -459,7 +459,7 @@ button.crosstalk {
 
 @media screen and (min-width: 480px) {
   h1 {
-    font-size: 55px;
+    font-size: 56px;
   }
   .project-container {
     margin:auto;
@@ -467,7 +467,7 @@ button.crosstalk {
   }
   .hero {
     display: flex;
-    width: 92%;
+    width: 90%;
   }
 
   * {
