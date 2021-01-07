@@ -242,8 +242,8 @@ ul.bullet-pts li {
 
 .hero {
   /*margin-left: 30px*/;
-  padding-top: 84px;
-  padding-bottom: 84px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   width: 100%;
 }
 
@@ -459,7 +459,7 @@ button.crosstalk {
 
 @media screen and (min-width: 480px) {
   h1 {
-    font-size: 56px;
+    font-size: 60px;
   }
   .project-container {
     margin:auto;
